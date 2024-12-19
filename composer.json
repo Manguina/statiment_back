@@ -1,0 +1,37 @@
+{
+    "name": "comercial/delcoom",
+    "description": "Sistema de  venda e Facturação",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Comer\\E\\": "Source/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nguinamau Santos",
+            "email": "piraodemilio@gmail.com"
+        }
+    ],
+
+     "config": {
+    "vendor-dir": "vendor"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Source\\": "Source/",
+      "App\\": "App/"
+    },
+    "files": [
+      "Source/Helps/Config.php",
+      "Source/Helps/bootsrap.php"
+      
+    ]
+  },
+
+    "require": {
+        "coffeecode/router": "^2.0",
+        "dompdf/dompdf": "^3.0"
+    }
+}
